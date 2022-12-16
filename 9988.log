@@ -1,0 +1,555 @@
+2022-12-20 13:27:59 Parachain Collator Template    
+2022-12-20 13:27:59 ✌️  version 0.1.0-4fc3c93cdd1    
+2022-12-20 13:27:59 ❤️  by Anonymous, 2020-2022    
+2022-12-20 13:27:59 📋 Chain specification: Local Testnet    
+2022-12-20 13:27:59 🏷  Node name: Alice    
+2022-12-20 13:27:59 👤 Role: AUTHORITY    
+2022-12-20 13:27:59 💾 Database: RocksDb at /var/folders/kg/klytpps54_n7q633ytggl6tm0000gn/T/substratecSNLrl/chains/local_testnet/db/full    
+2022-12-20 13:27:59 ⛓  Native runtime: template-parachain-1 (template-parachain-0.tx1.au1)    
+2022-12-20 13:28:01 assembling new collators for new session 0 at #0    
+2022-12-20 13:28:01 assembling new collators for new session 1 at #0    
+2022-12-20 13:28:01 Parachain id: Id(1000)    
+2022-12-20 13:28:01 Parachain Account: 5Ec4AhPZk8STuex8Wsi9TwDtJQxKqzPJRCH7348Xtcs9vZLJ    
+2022-12-20 13:28:01 Parachain genesis state: 0x000000000000000000000000000000000000000000000000000000000000000000674c41b4250a87dae117f9a7f99cbd34a8c94995d597d455d32c63d2bae484b003170a2e7597b7b7e3d84c05391d139a62b157e78786d8c082f29dcf4c11131400    
+2022-12-20 13:28:01 Is collating: yes    
+2022-12-20 13:28:01 [Parachain] assembling new collators for new session 0 at #0    
+2022-12-20 13:28:01 [Parachain] assembling new collators for new session 1 at #0    
+2022-12-20 13:28:02 [Parachain] 🔨 Initializing Genesis block/state (state: 0x674c…84b0, header-hash: 0x2464…205b)    
+2022-12-20 13:28:04 [Relaychain] 🔨 Initializing Genesis block/state (state: 0x754f…1bc1, header-hash: 0xd14d…06a8)    
+2022-12-20 13:28:04 [Relaychain] 👴 Loading GRANDPA authority set from genesis on what appears to be first startup.    
+2022-12-20 13:28:05 [Relaychain] 👶 Creating empty BABE epoch changes on what appears to be first startup.    
+2022-12-20 13:28:05 [Relaychain] 🏷  Local node identity is: 12D3KooWAqocxZvbCyNWYEirhjT8k99c2R2YGFB8NmeaNnUuiggf    
+2022-12-20 13:28:05 [Relaychain] 💻 Operating system: macos    
+2022-12-20 13:28:05 [Relaychain] 💻 CPU architecture: x86_64    
+2022-12-20 13:28:05 [Relaychain] 📦 Highest known block at #0    
+2022-12-20 13:28:05 [Relaychain] 〽️ Prometheus exporter started at 127.0.0.1:9616    
+2022-12-20 13:28:05 [Relaychain] Running JSON-RPC HTTP server: addr=127.0.0.1:9934, allowed origins=Some(["http://localhost:*", "http://127.0.0.1:*", "https://localhost:*", "https://127.0.0.1:*", "https://polkadot.js.org"])    
+2022-12-20 13:28:05 [Relaychain] Running JSON-RPC WS server: addr=127.0.0.1:9945, allowed origins=Some(["http://localhost:*", "http://127.0.0.1:*", "https://localhost:*", "https://127.0.0.1:*", "https://polkadot.js.org"])    
+2022-12-20 13:28:05 [Relaychain] 🏁 CPU score: 764MB/s    
+2022-12-20 13:28:05 [Relaychain] 🏁 Memory score: 7689MB/s    
+2022-12-20 13:28:05 [Relaychain] 🏁 Disk score (seq. writes): 1315MB/s    
+2022-12-20 13:28:05 [Relaychain] 🏁 Disk score (rand. writes): 201MB/s    
+2022-12-20 13:28:05 [Parachain] 🏷  Local node identity is: 12D3KooWNSM2HrHGeDD9ZEuVayVGYwsT2eTJsSKuRRNytSPV24Xx    
+2022-12-20 13:28:05 [Parachain] 💻 Operating system: macos    
+2022-12-20 13:28:05 [Parachain] 💻 CPU architecture: x86_64    
+2022-12-20 13:28:05 [Parachain] 📦 Highest known block at #0    
+2022-12-20 13:28:05 [Parachain] Running JSON-RPC HTTP server: addr=127.0.0.1:52816, allowed origins=Some(["http://localhost:*", "http://127.0.0.1:*", "https://localhost:*", "https://127.0.0.1:*", "https://polkadot.js.org"])    
+2022-12-20 13:28:05 [Relaychain] 👶 New epoch 0 launching at block 0x494b…3b00 (block slot 278594680 >= start slot 278594680).    
+2022-12-20 13:28:05 [Relaychain] 👶 Next epoch starts at slot 278594690    
+2022-12-20 13:28:05 [Parachain] Running JSON-RPC WS server: addr=127.0.0.1:9988, allowed origins=Some(["http://localhost:*", "http://127.0.0.1:*", "https://localhost:*", "https://127.0.0.1:*", "https://polkadot.js.org"])    
+2022-12-20 13:28:05 [Relaychain] ParentBlockRandomness did not provide entropy    
+2022-12-20 13:28:05 [Parachain] 🏁 CPU score: 764MB/s    
+2022-12-20 13:28:05 [Parachain] 🏁 Memory score: 7689MB/s    
+2022-12-20 13:28:05 [Parachain] 🏁 Disk score (seq. writes): 1315MB/s    
+2022-12-20 13:28:05 [Parachain] 🏁 Disk score (rand. writes): 201MB/s    
+2022-12-20 13:28:05 [Relaychain] ✨ Imported #1 (0x494b…3b00)    
+2022-12-20 13:28:06 [Relaychain] ✨ Imported #2 (0x5aa7…8dc3)    
+2022-12-20 13:28:10 [Relaychain] 💤 Idle (2 peers), best: #2 (0x5aa7…8dc3), finalized #0 (0xd14d…06a8), ⬇ 4.5kiB/s ⬆ 3.7kiB/s    
+2022-12-20 13:28:10 [Parachain] 💤 Idle (0 peers), best: #0 (0x2464…205b), finalized #0 (0x2464…205b), ⬇ 0 ⬆ 0    
+2022-12-20 13:28:12 [Relaychain] ✨ Imported #3 (0x30c4…af02)    
+2022-12-20 13:28:15 [Relaychain] 💤 Idle (2 peers), best: #3 (0x30c4…af02), finalized #0 (0xd14d…06a8), ⬇ 1.3kiB/s ⬆ 0.8kiB/s    
+2022-12-20 13:28:15 [Parachain] 💤 Idle (0 peers), best: #0 (0x2464…205b), finalized #0 (0x2464…205b), ⬇ 0 ⬆ 0    
+2022-12-20 13:28:18 [Relaychain] ✨ Imported #4 (0xf0bb…5734)    
+2022-12-20 13:28:20 [Relaychain] 💤 Idle (2 peers), best: #4 (0xf0bb…5734), finalized #0 (0xd14d…06a8), ⬇ 0.5kiB/s ⬆ 0.3kiB/s    
+2022-12-20 13:28:20 [Parachain] 💤 Idle (0 peers), best: #0 (0x2464…205b), finalized #0 (0x2464…205b), ⬇ 0 ⬆ 0    
+2022-12-20 13:28:24 [Relaychain] ✨ Imported #5 (0xe3ea…5673)    
+2022-12-20 13:28:25 [Relaychain] 💤 Idle (2 peers), best: #5 (0xe3ea…5673), finalized #2 (0x5aa7…8dc3), ⬇ 0.8kiB/s ⬆ 0.5kiB/s    
+2022-12-20 13:28:25 [Parachain] 💤 Idle (0 peers), best: #0 (0x2464…205b), finalized #0 (0x2464…205b), ⬇ 0 ⬆ 0    
+2022-12-20 13:28:30 [Relaychain] ✨ Imported #6 (0x2f5c…b314)    
+2022-12-20 13:28:30 [Relaychain] 💤 Idle (2 peers), best: #6 (0x2f5c…b314), finalized #3 (0x30c4…af02), ⬇ 0.9kiB/s ⬆ 0.8kiB/s    
+2022-12-20 13:28:30 [Parachain] 💤 Idle (0 peers), best: #0 (0x2464…205b), finalized #0 (0x2464…205b), ⬇ 0 ⬆ 0    
+2022-12-20 13:28:35 [Relaychain] 💤 Idle (2 peers), best: #6 (0x2f5c…b314), finalized #3 (0x30c4…af02), ⬇ 0.3kiB/s ⬆ 0.2kiB/s    
+2022-12-20 13:28:35 [Parachain] 💤 Idle (0 peers), best: #0 (0x2464…205b), finalized #0 (0x2464…205b), ⬇ 0 ⬆ 0    
+2022-12-20 13:28:36 [Relaychain] ✨ Imported #7 (0x2348…7dd3)    
+2022-12-20 13:28:36 [Relaychain] ✨ Imported #7 (0x242b…7832)    
+2022-12-20 13:28:40 [Relaychain] 💤 Idle (2 peers), best: #7 (0x2348…7dd3), finalized #4 (0xf0bb…5734), ⬇ 1.2kiB/s ⬆ 0.5kiB/s    
+2022-12-20 13:28:40 [Parachain] 💤 Idle (0 peers), best: #0 (0x2464…205b), finalized #0 (0x2464…205b), ⬇ 0 ⬆ 0    
+2022-12-20 13:28:42 [Relaychain] ♻️  Reorg on #7,0x2348…7dd3 to #8,0xb0cd…3a84, common ancestor #6,0x2f5c…b314    
+2022-12-20 13:28:42 [Relaychain] ✨ Imported #8 (0xb0cd…3a84)    
+2022-12-20 13:28:45 [Relaychain] 💤 Idle (2 peers), best: #8 (0xb0cd…3a84), finalized #4 (0xf0bb…5734), ⬇ 0.5kiB/s ⬆ 0.3kiB/s    
+2022-12-20 13:28:45 [Parachain] 💤 Idle (0 peers), best: #0 (0x2464…205b), finalized #0 (0x2464…205b), ⬇ 0 ⬆ 0    
+2022-12-20 13:28:48 [Relaychain] ✨ Imported #9 (0x3f27…48ba)    
+2022-12-20 13:28:48 [Relaychain] ✨ Imported #9 (0xb272…8141)    
+2022-12-20 13:28:50 [Relaychain] 💤 Idle (2 peers), best: #9 (0x3f27…48ba), finalized #6 (0x2f5c…b314), ⬇ 1.1kiB/s ⬆ 0.6kiB/s    
+2022-12-20 13:28:50 [Parachain] 💤 Idle (0 peers), best: #0 (0x2464…205b), finalized #0 (0x2464…205b), ⬇ 0 ⬆ 0    
+2022-12-20 13:28:54 [Relaychain] ✨ Imported #10 (0x7cd2…28dd)    
+2022-12-20 13:28:54 [Relaychain] ✨ Imported #10 (0x01ad…81fb)    
+2022-12-20 13:28:55 [Relaychain] 💤 Idle (2 peers), best: #10 (0x7cd2…28dd), finalized #7 (0x242b…7832), ⬇ 0.9kiB/s ⬆ 0.4kiB/s    
+2022-12-20 13:28:55 [Parachain] 💤 Idle (0 peers), best: #0 (0x2464…205b), finalized #0 (0x2464…205b), ⬇ 0 ⬆ 0    
+2022-12-20 13:29:00 [Relaychain] 👶 New epoch 1 launching at block 0xec0e…2230 (block slot 278594690 >= start slot 278594690).    
+2022-12-20 13:29:00 [Relaychain] 👶 Next epoch starts at slot 278594700    
+2022-12-20 13:29:00 [Relaychain] ✨ Imported #11 (0xec0e…2230)    
+2022-12-20 13:29:00 [Relaychain] Advanced session window for approvals update=Advanced { prev_window_start: 0, prev_window_end: 0, new_window_start: 0, new_window_end: 1 }
+2022-12-20 13:29:00 [Relaychain] 💤 Idle (2 peers), best: #11 (0xec0e…2230), finalized #7 (0x242b…7832), ⬇ 1.0kiB/s ⬆ 0.5kiB/s    
+2022-12-20 13:29:00 [Parachain] 💤 Idle (0 peers), best: #0 (0x2464…205b), finalized #0 (0x2464…205b), ⬇ 0 ⬆ 0    
+2022-12-20 13:29:05 [Relaychain] 💤 Idle (2 peers), best: #11 (0xec0e…2230), finalized #8 (0xb0cd…3a84), ⬇ 0.4kiB/s ⬆ 0.4kiB/s    
+2022-12-20 13:29:05 [Parachain] 💤 Idle (0 peers), best: #0 (0x2464…205b), finalized #0 (0x2464…205b), ⬇ 0 ⬆ 0    
+2022-12-20 13:29:06 [Relaychain] ✨ Imported #12 (0x0036…2e37)    
+2022-12-20 13:29:10 [Relaychain] 💤 Idle (2 peers), best: #12 (0x0036…2e37), finalized #10 (0x7cd2…28dd), ⬇ 0.9kiB/s ⬆ 0.5kiB/s    
+2022-12-20 13:29:10 [Parachain] 💤 Idle (0 peers), best: #0 (0x2464…205b), finalized #0 (0x2464…205b), ⬇ 0 ⬆ 0    
+2022-12-20 13:29:12 [Relaychain] ✨ Imported #13 (0xaf2b…6ffd)    
+2022-12-20 13:29:12 [Relaychain] ✨ Imported #13 (0xb38c…3953)    
+2022-12-20 13:29:15 [Relaychain] 💤 Idle (2 peers), best: #13 (0xaf2b…6ffd), finalized #10 (0x7cd2…28dd), ⬇ 1.0kiB/s ⬆ 0.4kiB/s    
+2022-12-20 13:29:15 [Parachain] 💤 Idle (0 peers), best: #0 (0x2464…205b), finalized #0 (0x2464…205b), ⬇ 0 ⬆ 0    
+2022-12-20 13:29:18 [Relaychain] ✨ Imported #14 (0x7780…d6e4)    
+2022-12-20 13:29:18 [Relaychain] ✨ Imported #14 (0x789a…6963)    
+2022-12-20 13:29:20 [Relaychain] 💤 Idle (2 peers), best: #14 (0x7780…d6e4), finalized #11 (0xec0e…2230), ⬇ 0.8kiB/s ⬆ 0.3kiB/s    
+2022-12-20 13:29:20 [Parachain] 💤 Idle (0 peers), best: #0 (0x2464…205b), finalized #0 (0x2464…205b), ⬇ 0 ⬆ 0    
+2022-12-20 13:29:24 [Relaychain] ✨ Imported #15 (0x3dce…c10c)    
+2022-12-20 13:29:25 [Relaychain] 💤 Idle (2 peers), best: #15 (0x3dce…c10c), finalized #11 (0xec0e…2230), ⬇ 0.7kiB/s ⬆ 0.4kiB/s    
+2022-12-20 13:29:25 [Parachain] 💤 Idle (0 peers), best: #0 (0x2464…205b), finalized #0 (0x2464…205b), ⬇ 0 ⬆ 0    
+2022-12-20 13:29:30 [Relaychain] ✨ Imported #16 (0x5e10…d483)    
+2022-12-20 13:29:30 [Relaychain] 💤 Idle (2 peers), best: #16 (0x5e10…d483), finalized #12 (0x0036…2e37), ⬇ 0.8kiB/s ⬆ 0.5kiB/s    
+2022-12-20 13:29:30 [Parachain] 💤 Idle (0 peers), best: #0 (0x2464…205b), finalized #0 (0x2464…205b), ⬇ 0 ⬆ 0    
+2022-12-20 13:29:35 [Relaychain] 💤 Idle (2 peers), best: #16 (0x5e10…d483), finalized #14 (0x7780…d6e4), ⬇ 0.3kiB/s ⬆ 0.2kiB/s    
+2022-12-20 13:29:35 [Parachain] 💤 Idle (0 peers), best: #0 (0x2464…205b), finalized #0 (0x2464…205b), ⬇ 0 ⬆ 0    
+2022-12-20 13:29:36 [Relaychain] ✨ Imported #17 (0xb427…f117)    
+2022-12-20 13:29:36 [Relaychain] ✨ Imported #17 (0x4dfd…7be8)    
+2022-12-20 13:29:40 [Relaychain] 💤 Idle (2 peers), best: #17 (0xb427…f117), finalized #14 (0x7780…d6e4), ⬇ 0.9kiB/s ⬆ 0.3kiB/s    
+2022-12-20 13:29:40 [Parachain] 💤 Idle (0 peers), best: #0 (0x2464…205b), finalized #0 (0x2464…205b), ⬇ 0 ⬆ 0    
+2022-12-20 13:29:42 [Relaychain] ✨ Imported #18 (0x8945…c1af)    
+2022-12-20 13:29:42 [Relaychain] ✨ Imported #18 (0xc423…e313)    
+2022-12-20 13:29:45 [Relaychain] 💤 Idle (2 peers), best: #18 (0x8945…c1af), finalized #15 (0x3dce…c10c), ⬇ 0.9kiB/s ⬆ 0.4kiB/s    
+2022-12-20 13:29:45 [Parachain] 💤 Idle (0 peers), best: #0 (0x2464…205b), finalized #0 (0x2464…205b), ⬇ 0 ⬆ 0    
+2022-12-20 13:29:48 [Relaychain] ✨ Imported #19 (0x9d7c…942c)    
+2022-12-20 13:29:50 [Relaychain] 💤 Idle (2 peers), best: #19 (0x9d7c…942c), finalized #16 (0x5e10…d483), ⬇ 0.6kiB/s ⬆ 0.4kiB/s    
+2022-12-20 13:29:50 [Parachain] 💤 Idle (0 peers), best: #0 (0x2464…205b), finalized #0 (0x2464…205b), ⬇ 0 ⬆ 0    
+2022-12-20 13:29:54 [Relaychain] ✨ Imported #20 (0x147a…3058)    
+2022-12-20 13:29:55 [Relaychain] 💤 Idle (2 peers), best: #20 (0x147a…3058), finalized #16 (0x5e10…d483), ⬇ 0.7kiB/s ⬆ 0.4kiB/s    
+2022-12-20 13:29:55 [Parachain] 💤 Idle (0 peers), best: #0 (0x2464…205b), finalized #0 (0x2464…205b), ⬇ 0 ⬆ 0    
+2022-12-20 13:30:00 [Relaychain] 👶 New epoch 2 launching at block 0x8447…45ab (block slot 278594700 >= start slot 278594700).    
+2022-12-20 13:30:00 [Relaychain] 👶 Next epoch starts at slot 278594710    
+2022-12-20 13:30:00 [Relaychain] ✨ Imported #21 (0x8447…45ab)    
+2022-12-20 13:30:00 [Relaychain] Advanced session window for approvals update=Advanced { prev_window_start: 0, prev_window_end: 1, new_window_start: 0, new_window_end: 2 }
+2022-12-20 13:30:00 [Relaychain] 💤 Idle (2 peers), best: #21 (0x8447…45ab), finalized #18 (0x8945…c1af), ⬇ 0.8kiB/s ⬆ 0.3kiB/s    
+2022-12-20 13:30:00 [Parachain] 💤 Idle (0 peers), best: #0 (0x2464…205b), finalized #0 (0x2464…205b), ⬇ 0 ⬆ 0    
+2022-12-20 13:30:05 [Relaychain] 💤 Idle (2 peers), best: #21 (0x8447…45ab), finalized #18 (0x8945…c1af), ⬇ 0.6kiB/s ⬆ 0.7kiB/s    
+2022-12-20 13:30:05 [Parachain] 💤 Idle (0 peers), best: #0 (0x2464…205b), finalized #0 (0x2464…205b), ⬇ 0 ⬆ 0    
+2022-12-20 13:30:06 [Relaychain] ✨ Imported #22 (0xfb8d…ffcc)    
+2022-12-20 13:30:06 [Relaychain] ✨ Imported #22 (0x31d3…4788)    
+2022-12-20 13:30:10 [Relaychain] 💤 Idle (2 peers), best: #22 (0xfb8d…ffcc), finalized #19 (0x9d7c…942c), ⬇ 1.4kiB/s ⬆ 0.7kiB/s    
+2022-12-20 13:30:10 [Parachain] 💤 Idle (0 peers), best: #0 (0x2464…205b), finalized #0 (0x2464…205b), ⬇ 0 ⬆ 0    
+2022-12-20 13:30:12 [Relaychain] ✨ Imported #23 (0xa50e…bcbf)    
+2022-12-20 13:30:15 [Relaychain] 💤 Idle (2 peers), best: #23 (0xa50e…bcbf), finalized #20 (0x147a…3058), ⬇ 0.7kiB/s ⬆ 0.4kiB/s    
+2022-12-20 13:30:15 [Parachain] 💤 Idle (0 peers), best: #0 (0x2464…205b), finalized #0 (0x2464…205b), ⬇ 0 ⬆ 0    
+2022-12-20 13:30:18 [Relaychain] ✨ Imported #24 (0x0039…2a54)    
+2022-12-20 13:30:20 [Relaychain] 💤 Idle (2 peers), best: #24 (0x0039…2a54), finalized #20 (0x147a…3058), ⬇ 0.6kiB/s ⬆ 0.4kiB/s    
+2022-12-20 13:30:20 [Parachain] 💤 Idle (0 peers), best: #0 (0x2464…205b), finalized #0 (0x2464…205b), ⬇ 0 ⬆ 0    
+2022-12-20 13:30:22 [Relaychain] 👴 Applying authority set change scheduled at block #21    
+2022-12-20 13:30:22 [Relaychain] 👴 Applying GRANDPA set change to new set [(Public(88dc3417d5058ec4b4503e0c12ea1a0a89be200fe98922423d4334014fa6b0ee (5FA9nQDV...)), 1), (Public(d17c2d7823ebf260fd138f2d7e27d114c0145d968b5ff5006125f2414fadae69 (5GoNkf6W...)), 1)]    
+2022-12-20 13:30:24 [Relaychain] ✨ Imported #25 (0x3b5a…0cfc)    
+2022-12-20 13:30:25 [Relaychain] 💤 Idle (2 peers), best: #25 (0x3b5a…0cfc), finalized #21 (0x8447…45ab), ⬇ 0.6kiB/s ⬆ 0.3kiB/s    
+2022-12-20 13:30:25 [Parachain] 💤 Idle (0 peers), best: #0 (0x2464…205b), finalized #0 (0x2464…205b), ⬇ 0 ⬆ 0    
+2022-12-20 13:30:30 [Relaychain] ✨ Imported #26 (0x0757…d1fd)    
+2022-12-20 13:30:30 [Relaychain] 💤 Idle (2 peers), best: #26 (0x0757…d1fd), finalized #23 (0xa50e…bcbf), ⬇ 0.6kiB/s ⬆ 0.4kiB/s    
+2022-12-20 13:30:30 [Parachain] 💤 Idle (0 peers), best: #0 (0x2464…205b), finalized #0 (0x2464…205b), ⬇ 0 ⬆ 0    
+2022-12-20 13:30:35 [Relaychain] 💤 Idle (2 peers), best: #26 (0x0757…d1fd), finalized #23 (0xa50e…bcbf), ⬇ 0.4kiB/s ⬆ 0.3kiB/s    
+2022-12-20 13:30:35 [Parachain] 💤 Idle (0 peers), best: #0 (0x2464…205b), finalized #0 (0x2464…205b), ⬇ 0 ⬆ 0    
+2022-12-20 13:30:36 [Relaychain] ✨ Imported #27 (0x9ff8…2a92)    
+2022-12-20 13:30:40 [Relaychain] 💤 Idle (2 peers), best: #27 (0x9ff8…2a92), finalized #24 (0x0039…2a54), ⬇ 0.7kiB/s ⬆ 0.4kiB/s    
+2022-12-20 13:30:40 [Parachain] 💤 Idle (0 peers), best: #0 (0x2464…205b), finalized #0 (0x2464…205b), ⬇ 0 ⬆ 0    
+2022-12-20 13:30:42 [Relaychain] ✨ Imported #28 (0x58e5…29b7)    
+2022-12-20 13:30:45 [Relaychain] 💤 Idle (2 peers), best: #28 (0x58e5…29b7), finalized #24 (0x0039…2a54), ⬇ 0.5kiB/s ⬆ 0.2kiB/s    
+2022-12-20 13:30:45 [Parachain] 💤 Idle (0 peers), best: #0 (0x2464…205b), finalized #0 (0x2464…205b), ⬇ 0 ⬆ 0    
+2022-12-20 13:30:48 [Relaychain] ✨ Imported #29 (0x228a…fccf)    
+2022-12-20 13:30:50 [Relaychain] 💤 Idle (2 peers), best: #29 (0x228a…fccf), finalized #26 (0x0757…d1fd), ⬇ 0.9kiB/s ⬆ 0.6kiB/s    
+2022-12-20 13:30:50 [Parachain] 💤 Idle (0 peers), best: #0 (0x2464…205b), finalized #0 (0x2464…205b), ⬇ 0 ⬆ 0    
+2022-12-20 13:30:54 [Relaychain] ✨ Imported #30 (0x859f…393f)    
+2022-12-20 13:30:55 [Relaychain] 💤 Idle (2 peers), best: #30 (0x859f…393f), finalized #27 (0x9ff8…2a92), ⬇ 0.7kiB/s ⬆ 0.3kiB/s    
+2022-12-20 13:30:56 [Parachain] 💤 Idle (0 peers), best: #0 (0x2464…205b), finalized #0 (0x2464…205b), ⬇ 0 ⬆ 0    
+2022-12-20 13:31:00 [Relaychain] 👶 New epoch 3 launching at block 0x829b…c274 (block slot 278594710 >= start slot 278594710).    
+2022-12-20 13:31:00 [Relaychain] 👶 Next epoch starts at slot 278594720    
+2022-12-20 13:31:00 [Relaychain] ✨ Imported #31 (0x829b…c274)    
+2022-12-20 13:31:00 [Relaychain] Advanced session window for approvals update=Advanced { prev_window_start: 0, prev_window_end: 2, new_window_start: 0, new_window_end: 3 }
+2022-12-20 13:31:00 [Relaychain] 💤 Idle (2 peers), best: #31 (0x829b…c274), finalized #27 (0x9ff8…2a92), ⬇ 0.7kiB/s ⬆ 0.3kiB/s    
+2022-12-20 13:31:01 [Parachain] 💤 Idle (0 peers), best: #0 (0x2464…205b), finalized #0 (0x2464…205b), ⬇ 0 ⬆ 0    
+2022-12-20 13:31:05 [Relaychain] 💤 Idle (2 peers), best: #31 (0x829b…c274), finalized #28 (0x58e5…29b7), ⬇ 0.4kiB/s ⬆ 0.4kiB/s    
+2022-12-20 13:31:06 [Parachain] 💤 Idle (0 peers), best: #0 (0x2464…205b), finalized #0 (0x2464…205b), ⬇ 0 ⬆ 0    
+2022-12-20 13:31:06 [Relaychain] ✨ Imported #32 (0x65d3…40f7)    
+2022-12-20 13:31:10 [Relaychain] 💤 Idle (2 peers), best: #32 (0x65d3…40f7), finalized #30 (0x859f…393f), ⬇ 0.9kiB/s ⬆ 0.5kiB/s    
+2022-12-20 13:31:11 [Parachain] 💤 Idle (0 peers), best: #0 (0x2464…205b), finalized #0 (0x2464…205b), ⬇ 0 ⬆ 0    
+2022-12-20 13:31:12 [Relaychain] ✨ Imported #33 (0x7825…7909)    
+2022-12-20 13:31:15 [Relaychain] 💤 Idle (2 peers), best: #33 (0x7825…7909), finalized #30 (0x859f…393f), ⬇ 0.7kiB/s ⬆ 0.4kiB/s    
+2022-12-20 13:31:16 [Parachain] 💤 Idle (0 peers), best: #0 (0x2464…205b), finalized #0 (0x2464…205b), ⬇ 0 ⬆ 0    
+2022-12-20 13:31:18 [Relaychain] ✨ Imported #34 (0x8b22…796a)    
+2022-12-20 13:31:18 [Relaychain] 👴 Applying authority set change scheduled at block #31    
+2022-12-20 13:31:18 [Relaychain] 👴 Applying GRANDPA set change to new set [(Public(88dc3417d5058ec4b4503e0c12ea1a0a89be200fe98922423d4334014fa6b0ee (5FA9nQDV...)), 1), (Public(d17c2d7823ebf260fd138f2d7e27d114c0145d968b5ff5006125f2414fadae69 (5GoNkf6W...)), 1)]    
+2022-12-20 13:31:20 [Relaychain] 💤 Idle (2 peers), best: #34 (0x8b22…796a), finalized #31 (0x829b…c274), ⬇ 0.6kiB/s ⬆ 0.3kiB/s    
+2022-12-20 13:31:21 [Parachain] 💤 Idle (0 peers), best: #0 (0x2464…205b), finalized #0 (0x2464…205b), ⬇ 0 ⬆ 0    
+2022-12-20 13:31:24 [Relaychain] ✨ Imported #35 (0xd86b…a6eb)    
+2022-12-20 13:31:25 [Relaychain] 💤 Idle (2 peers), best: #35 (0xd86b…a6eb), finalized #31 (0x829b…c274), ⬇ 0.5kiB/s ⬆ 0.3kiB/s    
+2022-12-20 13:31:26 [Parachain] 💤 Idle (0 peers), best: #0 (0x2464…205b), finalized #0 (0x2464…205b), ⬇ 0 ⬆ 0    
+2022-12-20 13:31:30 [Relaychain] ✨ Imported #36 (0xc5b6…da7e)    
+2022-12-20 13:31:30 [Relaychain] ✨ Imported #36 (0x89b6…5bf2)    
+2022-12-20 13:31:30 [Relaychain] 💤 Idle (2 peers), best: #36 (0xc5b6…da7e), finalized #32 (0x65d3…40f7), ⬇ 1.1kiB/s ⬆ 0.6kiB/s    
+2022-12-20 13:31:31 [Parachain] 💤 Idle (0 peers), best: #0 (0x2464…205b), finalized #0 (0x2464…205b), ⬇ 0 ⬆ 0    
+2022-12-20 13:31:35 [Relaychain] 💤 Idle (2 peers), best: #36 (0xc5b6…da7e), finalized #34 (0x8b22…796a), ⬇ 0.2kiB/s ⬆ 0.2kiB/s    
+2022-12-20 13:31:36 [Relaychain] ✨ Imported #37 (0x78fa…51ec)    
+2022-12-20 13:31:36 [Parachain] 💤 Idle (0 peers), best: #0 (0x2464…205b), finalized #0 (0x2464…205b), ⬇ 0 ⬆ 0    
+2022-12-20 13:31:40 [Relaychain] 💤 Idle (2 peers), best: #37 (0x78fa…51ec), finalized #34 (0x8b22…796a), ⬇ 0.6kiB/s ⬆ 0.3kiB/s    
+2022-12-20 13:31:41 [Parachain] 💤 Idle (0 peers), best: #0 (0x2464…205b), finalized #0 (0x2464…205b), ⬇ 0 ⬆ 0    
+2022-12-20 13:31:42 [Relaychain] ✨ Imported #38 (0x8741…b53e)    
+2022-12-20 13:31:45 [Relaychain] 💤 Idle (2 peers), best: #38 (0x8741…b53e), finalized #35 (0xd86b…a6eb), ⬇ 0.7kiB/s ⬆ 0.4kiB/s    
+2022-12-20 13:31:46 [Parachain] 💤 Idle (0 peers), best: #0 (0x2464…205b), finalized #0 (0x2464…205b), ⬇ 0 ⬆ 0    
+2022-12-20 13:31:48 [Relaychain] ✨ Imported #39 (0xa794…8c4c)    
+2022-12-20 13:31:48 [Relaychain] ✨ Imported #39 (0x193b…b5e7)    
+2022-12-20 13:31:50 [Relaychain] 💤 Idle (2 peers), best: #39 (0xa794…8c4c), finalized #36 (0xc5b6…da7e), ⬇ 1.2kiB/s ⬆ 0.6kiB/s    
+2022-12-20 13:31:51 [Parachain] 💤 Idle (0 peers), best: #0 (0x2464…205b), finalized #0 (0x2464…205b), ⬇ 0 ⬆ 0    
+2022-12-20 13:31:54 [Relaychain] ✨ Imported #40 (0x6274…9bc5)    
+2022-12-20 13:31:55 [Relaychain] 💤 Idle (2 peers), best: #40 (0x6274…9bc5), finalized #36 (0xc5b6…da7e), ⬇ 0.5kiB/s ⬆ 0.3kiB/s    
+2022-12-20 13:31:56 [Parachain] 💤 Idle (0 peers), best: #0 (0x2464…205b), finalized #0 (0x2464…205b), ⬇ 0 ⬆ 0    
+2022-12-20 13:32:00 [Relaychain] 👶 New epoch 4 launching at block 0x9de7…b432 (block slot 278594720 >= start slot 278594720).    
+2022-12-20 13:32:00 [Relaychain] 👶 Next epoch starts at slot 278594730    
+2022-12-20 13:32:00 [Relaychain] ✨ Imported #41 (0x9de7…b432)    
+2022-12-20 13:32:00 [Relaychain] 👶 New epoch 4 launching at block 0xc63d…b535 (block slot 278594720 >= start slot 278594720).    
+2022-12-20 13:32:00 [Relaychain] 👶 Next epoch starts at slot 278594730    
+2022-12-20 13:32:00 [Relaychain] Advanced session window for approvals update=Advanced { prev_window_start: 0, prev_window_end: 3, new_window_start: 0, new_window_end: 4 }
+2022-12-20 13:32:00 [Relaychain] ✨ Imported #41 (0xc63d…b535)    
+2022-12-20 13:32:00 [Relaychain] 💤 Idle (2 peers), best: #41 (0x9de7…b432), finalized #38 (0x8741…b53e), ⬇ 1.5kiB/s ⬆ 0.5kiB/s    
+2022-12-20 13:32:01 [Parachain] 💤 Idle (0 peers), best: #0 (0x2464…205b), finalized #0 (0x2464…205b), ⬇ 0 ⬆ 0    
+2022-12-20 13:32:05 [Relaychain] 💤 Idle (2 peers), best: #41 (0x9de7…b432), finalized #38 (0x8741…b53e), ⬇ 0.3kiB/s ⬆ 0.3kiB/s    
+2022-12-20 13:32:06 [Relaychain] ✨ Imported #42 (0x9ebc…0718)    
+2022-12-20 13:32:06 [Parachain] 💤 Idle (0 peers), best: #0 (0x2464…205b), finalized #0 (0x2464…205b), ⬇ 0 ⬆ 0    
+2022-12-20 13:32:10 [Relaychain] 💤 Idle (2 peers), best: #42 (0x9ebc…0718), finalized #39 (0xa794…8c4c), ⬇ 1.1kiB/s ⬆ 0.7kiB/s    
+2022-12-20 13:32:11 [Parachain] 💤 Idle (0 peers), best: #0 (0x2464…205b), finalized #0 (0x2464…205b), ⬇ 0 ⬆ 0    
+2022-12-20 13:32:12 [Relaychain] ✨ Imported #43 (0x8f2e…8263)    
+2022-12-20 13:32:15 [Relaychain] 💤 Idle (2 peers), best: #43 (0x8f2e…8263), finalized #40 (0x6274…9bc5), ⬇ 0.8kiB/s ⬆ 0.6kiB/s    
+2022-12-20 13:32:16 [Parachain] 💤 Idle (0 peers), best: #0 (0x2464…205b), finalized #0 (0x2464…205b), ⬇ 0 ⬆ 0    
+2022-12-20 13:32:18 [Relaychain] ✨ Imported #44 (0x5057…fc48)    
+2022-12-20 13:32:20 [Relaychain] 💤 Idle (2 peers), best: #44 (0x5057…fc48), finalized #40 (0x6274…9bc5), ⬇ 0.9kiB/s ⬆ 0.6kiB/s    
+2022-12-20 13:32:21 [Parachain] 💤 Idle (0 peers), best: #0 (0x2464…205b), finalized #0 (0x2464…205b), ⬇ 0 ⬆ 0    
+2022-12-20 13:32:22 [Relaychain] 👴 Applying authority set change scheduled at block #41    
+2022-12-20 13:32:22 [Relaychain] 👴 Applying GRANDPA set change to new set [(Public(88dc3417d5058ec4b4503e0c12ea1a0a89be200fe98922423d4334014fa6b0ee (5FA9nQDV...)), 1), (Public(d17c2d7823ebf260fd138f2d7e27d114c0145d968b5ff5006125f2414fadae69 (5GoNkf6W...)), 1)]    
+2022-12-20 13:32:24 [Relaychain] ✨ Imported #45 (0x8af1…7c33)    
+2022-12-20 13:32:25 [Relaychain] 💤 Idle (2 peers), best: #45 (0x8af1…7c33), finalized #41 (0x9de7…b432), ⬇ 0.6kiB/s ⬆ 0.4kiB/s    
+2022-12-20 13:32:26 [Parachain] 💤 Idle (0 peers), best: #0 (0x2464…205b), finalized #0 (0x2464…205b), ⬇ 0 ⬆ 0    
+2022-12-20 13:32:30 [Relaychain] ✨ Imported #46 (0x3a8f…8c9b)    
+2022-12-20 13:32:30 [Relaychain] 💤 Idle (2 peers), best: #46 (0x3a8f…8c9b), finalized #43 (0x8f2e…8263), ⬇ 0.6kiB/s ⬆ 0.4kiB/s    
+2022-12-20 13:32:31 [Parachain] 💤 Idle (0 peers), best: #0 (0x2464…205b), finalized #0 (0x2464…205b), ⬇ 0 ⬆ 0    
+2022-12-20 13:32:35 [Relaychain] 💤 Idle (2 peers), best: #46 (0x3a8f…8c9b), finalized #43 (0x8f2e…8263), ⬇ 0.4kiB/s ⬆ 0.3kiB/s    
+2022-12-20 13:32:36 [Relaychain] ✨ Imported #47 (0xe29d…4bcc)    
+2022-12-20 13:32:36 [Parachain] 💤 Idle (0 peers), best: #0 (0x2464…205b), finalized #0 (0x2464…205b), ⬇ 0 ⬆ 0    
+2022-12-20 13:32:40 [Relaychain] 💤 Idle (2 peers), best: #47 (0xe29d…4bcc), finalized #44 (0x5057…fc48), ⬇ 0.7kiB/s ⬆ 0.4kiB/s    
+2022-12-20 13:32:41 [Parachain] 💤 Idle (0 peers), best: #0 (0x2464…205b), finalized #0 (0x2464…205b), ⬇ 0 ⬆ 0    
+2022-12-20 13:32:42 [Relaychain] ✨ Imported #48 (0xb138…e3a0)    
+2022-12-20 13:32:45 [Relaychain] 💤 Idle (2 peers), best: #48 (0xb138…e3a0), finalized #44 (0x5057…fc48), ⬇ 0.5kiB/s ⬆ 0.3kiB/s    
+2022-12-20 13:32:46 [Parachain] 💤 Idle (0 peers), best: #0 (0x2464…205b), finalized #0 (0x2464…205b), ⬇ 0 ⬆ 0    
+2022-12-20 13:32:48 [Relaychain] ✨ Imported #49 (0x7b53…4812)    
+2022-12-20 13:32:48 [Relaychain] ✨ Imported #49 (0xd883…413b)    
+2022-12-20 13:32:50 [Relaychain] 💤 Idle (2 peers), best: #49 (0x7b53…4812), finalized #46 (0x3a8f…8c9b), ⬇ 1.2kiB/s ⬆ 0.6kiB/s    
+2022-12-20 13:32:51 [Parachain] 💤 Idle (0 peers), best: #0 (0x2464…205b), finalized #0 (0x2464…205b), ⬇ 0 ⬆ 0    
+2022-12-20 13:32:54 [Relaychain] ✨ Imported #50 (0x3b2c…ff8a)    
+2022-12-20 13:32:55 [Relaychain] 💤 Idle (2 peers), best: #50 (0x3b2c…ff8a), finalized #47 (0xe29d…4bcc), ⬇ 0.7kiB/s ⬆ 0.4kiB/s    
+2022-12-20 13:32:56 [Parachain] 💤 Idle (0 peers), best: #0 (0x2464…205b), finalized #0 (0x2464…205b), ⬇ 0 ⬆ 0    
+2022-12-20 13:33:00 [Relaychain] 👶 New epoch 5 launching at block 0x470b…6a06 (block slot 278594730 >= start slot 278594730).    
+2022-12-20 13:33:00 [Relaychain] 👶 Next epoch starts at slot 278594740    
+2022-12-20 13:33:00 [Relaychain] ✨ Imported #51 (0x470b…6a06)    
+2022-12-20 13:33:00 [Relaychain] Advanced session window for approvals update=Advanced { prev_window_start: 0, prev_window_end: 4, new_window_start: 0, new_window_end: 5 }
+2022-12-20 13:33:01 [Relaychain] 💤 Idle (2 peers), best: #51 (0x470b…6a06), finalized #47 (0xe29d…4bcc), ⬇ 0.8kiB/s ⬆ 0.5kiB/s    
+2022-12-20 13:33:01 [Parachain] 💤 Idle (0 peers), best: #0 (0x2464…205b), finalized #0 (0x2464…205b), ⬇ 0 ⬆ 0    
+2022-12-20 13:33:06 [Relaychain] 💤 Idle (2 peers), best: #51 (0x470b…6a06), finalized #48 (0xb138…e3a0), ⬇ 0.4kiB/s ⬆ 0.4kiB/s    
+2022-12-20 13:33:06 [Relaychain] ✨ Imported #52 (0x39ad…902b)    
+2022-12-20 13:33:06 [Relaychain] ✨ Imported #52 (0x4485…ace1)    
+2022-12-20 13:33:06 [Parachain] 💤 Idle (0 peers), best: #0 (0x2464…205b), finalized #0 (0x2464…205b), ⬇ 0 ⬆ 0    
+2022-12-20 13:33:11 [Relaychain] 💤 Idle (2 peers), best: #52 (0x39ad…902b), finalized #50 (0x3b2c…ff8a), ⬇ 2.5kiB/s ⬆ 1.9kiB/s    
+2022-12-20 13:33:11 [Parachain] 💤 Idle (0 peers), best: #0 (0x2464…205b), finalized #0 (0x2464…205b), ⬇ 0 ⬆ 0    
+2022-12-20 13:33:12 [Relaychain] ✨ Imported #53 (0x8297…e368)    
+2022-12-20 13:33:12 [Relaychain] ✨ Imported #53 (0x1802…3351)    
+2022-12-20 13:33:16 [Relaychain] 💤 Idle (2 peers), best: #53 (0x8297…e368), finalized #50 (0x3b2c…ff8a), ⬇ 1.0kiB/s ⬆ 0.4kiB/s    
+2022-12-20 13:33:16 [Parachain] 💤 Idle (0 peers), best: #0 (0x2464…205b), finalized #0 (0x2464…205b), ⬇ 0 ⬆ 0    
+2022-12-20 13:33:18 [Relaychain] ✨ Imported #54 (0x13bd…579a)    
+2022-12-20 13:33:18 [Relaychain] 👴 Applying authority set change scheduled at block #51    
+2022-12-20 13:33:18 [Relaychain] 👴 Applying GRANDPA set change to new set [(Public(88dc3417d5058ec4b4503e0c12ea1a0a89be200fe98922423d4334014fa6b0ee (5FA9nQDV...)), 1), (Public(d17c2d7823ebf260fd138f2d7e27d114c0145d968b5ff5006125f2414fadae69 (5GoNkf6W...)), 1)]    
+2022-12-20 13:33:21 [Relaychain] 💤 Idle (2 peers), best: #54 (0x13bd…579a), finalized #51 (0x470b…6a06), ⬇ 0.6kiB/s ⬆ 0.4kiB/s    
+2022-12-20 13:33:21 [Parachain] 💤 Idle (0 peers), best: #0 (0x2464…205b), finalized #0 (0x2464…205b), ⬇ 0 ⬆ 0    
+2022-12-20 13:33:24 [Relaychain] ✨ Imported #55 (0xcb90…5c43)    
+2022-12-20 13:33:24 [Relaychain] ✨ Imported #55 (0xcbe7…790e)    
+2022-12-20 13:33:26 [Relaychain] 💤 Idle (2 peers), best: #55 (0xcb90…5c43), finalized #51 (0x470b…6a06), ⬇ 0.8kiB/s ⬆ 0.2kiB/s    
+2022-12-20 13:33:26 [Parachain] 💤 Idle (0 peers), best: #0 (0x2464…205b), finalized #0 (0x2464…205b), ⬇ 0 ⬆ 0    
+2022-12-20 13:33:30 [Relaychain] ♻️  Reorg on #55,0xcb90…5c43 to #56,0x37a3…1f6d, common ancestor #54,0x13bd…579a    
+2022-12-20 13:33:30 [Relaychain] ✨ Imported #56 (0x37a3…1f6d)    
+2022-12-20 13:33:31 [Relaychain] 💤 Idle (2 peers), best: #56 (0x37a3…1f6d), finalized #52 (0x39ad…902b), ⬇ 0.8kiB/s ⬆ 0.5kiB/s    
+2022-12-20 13:33:31 [Parachain] 💤 Idle (0 peers), best: #0 (0x2464…205b), finalized #0 (0x2464…205b), ⬇ 0 ⬆ 0    
+2022-12-20 13:33:36 [Relaychain] 💤 Idle (2 peers), best: #56 (0x37a3…1f6d), finalized #54 (0x13bd…579a), ⬇ 0.2kiB/s ⬆ 0.2kiB/s    
+2022-12-20 13:33:36 [Relaychain] ✨ Imported #57 (0x72c0…19f2)    
+2022-12-20 13:33:36 [Parachain] 💤 Idle (0 peers), best: #0 (0x2464…205b), finalized #0 (0x2464…205b), ⬇ 0 ⬆ 0    
+2022-12-20 13:33:41 [Relaychain] 💤 Idle (2 peers), best: #57 (0x72c0…19f2), finalized #54 (0x13bd…579a), ⬇ 0.6kiB/s ⬆ 0.3kiB/s    
+2022-12-20 13:33:41 [Parachain] 💤 Idle (0 peers), best: #0 (0x2464…205b), finalized #0 (0x2464…205b), ⬇ 0 ⬆ 0    
+2022-12-20 13:33:42 [Relaychain] ✨ Imported #58 (0x8aae…9a5d)    
+2022-12-20 13:33:46 [Relaychain] 💤 Idle (2 peers), best: #58 (0x8aae…9a5d), finalized #55 (0xcbe7…790e), ⬇ 0.5kiB/s ⬆ 0.3kiB/s    
+2022-12-20 13:33:46 [Parachain] 💤 Idle (0 peers), best: #0 (0x2464…205b), finalized #0 (0x2464…205b), ⬇ 0 ⬆ 0    
+2022-12-20 13:33:48 [Relaychain] ✨ Imported #59 (0xbfb3…ce21)    
+2022-12-20 13:33:51 [Relaychain] 💤 Idle (2 peers), best: #59 (0xbfb3…ce21), finalized #56 (0x37a3…1f6d), ⬇ 0.9kiB/s ⬆ 0.6kiB/s    
+2022-12-20 13:33:51 [Parachain] 💤 Idle (0 peers), best: #0 (0x2464…205b), finalized #0 (0x2464…205b), ⬇ 0 ⬆ 0    
+2022-12-20 13:33:54 [Relaychain] ✨ Imported #60 (0x8e83…f05e)    
+2022-12-20 13:33:56 [Relaychain] 💤 Idle (2 peers), best: #60 (0x8e83…f05e), finalized #56 (0x37a3…1f6d), ⬇ 0.6kiB/s ⬆ 0.3kiB/s    
+2022-12-20 13:33:56 [Parachain] 💤 Idle (0 peers), best: #0 (0x2464…205b), finalized #0 (0x2464…205b), ⬇ 0 ⬆ 0    
+2022-12-20 13:34:00 [Relaychain] 👶 New epoch 6 launching at block 0xeb7a…d7de (block slot 278594740 >= start slot 278594740).    
+2022-12-20 13:34:00 [Relaychain] 👶 Next epoch starts at slot 278594750    
+2022-12-20 13:34:00 [Relaychain] ✨ Imported #61 (0xeb7a…d7de)    
+2022-12-20 13:34:00 [Relaychain] Advanced session window for approvals update=Advanced { prev_window_start: 0, prev_window_end: 5, new_window_start: 1, new_window_end: 6 }
+2022-12-20 13:34:01 [Relaychain] 💤 Idle (2 peers), best: #61 (0xeb7a…d7de), finalized #58 (0x8aae…9a5d), ⬇ 0.9kiB/s ⬆ 0.4kiB/s    
+2022-12-20 13:34:01 [Parachain] 💤 Idle (0 peers), best: #0 (0x2464…205b), finalized #0 (0x2464…205b), ⬇ 0 ⬆ 0    
+2022-12-20 13:34:06 [Relaychain] 💤 Idle (2 peers), best: #61 (0xeb7a…d7de), finalized #58 (0x8aae…9a5d), ⬇ 0.6kiB/s ⬆ 0.4kiB/s    
+2022-12-20 13:34:06 [Relaychain] ✨ Imported #62 (0x03e6…6bc6)    
+2022-12-20 13:34:06 [Parachain] 💤 Idle (0 peers), best: #0 (0x2464…205b), finalized #0 (0x2464…205b), ⬇ 0 ⬆ 0    
+2022-12-20 13:34:11 [Relaychain] 💤 Idle (2 peers), best: #62 (0x03e6…6bc6), finalized #59 (0xbfb3…ce21), ⬇ 0.7kiB/s ⬆ 0.5kiB/s    
+2022-12-20 13:34:11 [Parachain] 💤 Idle (0 peers), best: #0 (0x2464…205b), finalized #0 (0x2464…205b), ⬇ 0 ⬆ 0    
+2022-12-20 13:34:12 [Relaychain] ✨ Imported #63 (0x878a…5f0e)    
+2022-12-20 13:34:16 [Relaychain] 💤 Idle (2 peers), best: #63 (0x878a…5f0e), finalized #60 (0x8e83…f05e), ⬇ 0.5kiB/s ⬆ 0.2kiB/s    
+2022-12-20 13:34:16 [Parachain] 💤 Idle (0 peers), best: #0 (0x2464…205b), finalized #0 (0x2464…205b), ⬇ 0 ⬆ 0    
+2022-12-20 13:34:18 [Relaychain] ✨ Imported #64 (0x2f61…989e)    
+2022-12-20 13:34:21 [Relaychain] 💤 Idle (2 peers), best: #64 (0x2f61…989e), finalized #60 (0x8e83…f05e), ⬇ 0.8kiB/s ⬆ 0.4kiB/s    
+2022-12-20 13:34:21 [Parachain] 💤 Idle (0 peers), best: #0 (0x2464…205b), finalized #0 (0x2464…205b), ⬇ 0 ⬆ 0    
+2022-12-20 13:34:22 [Relaychain] 👴 Applying authority set change scheduled at block #61    
+2022-12-20 13:34:22 [Relaychain] 👴 Applying GRANDPA set change to new set [(Public(88dc3417d5058ec4b4503e0c12ea1a0a89be200fe98922423d4334014fa6b0ee (5FA9nQDV...)), 1), (Public(d17c2d7823ebf260fd138f2d7e27d114c0145d968b5ff5006125f2414fadae69 (5GoNkf6W...)), 1)]    
+2022-12-20 13:34:24 [Relaychain] ✨ Imported #65 (0xebc9…6b07)    
+2022-12-20 13:34:26 [Relaychain] 💤 Idle (2 peers), best: #65 (0xebc9…6b07), finalized #61 (0xeb7a…d7de), ⬇ 0.5kiB/s ⬆ 0.2kiB/s    
+2022-12-20 13:34:26 [Parachain] 💤 Idle (0 peers), best: #0 (0x2464…205b), finalized #0 (0x2464…205b), ⬇ 0 ⬆ 0    
+2022-12-20 13:34:30 [Relaychain] ✨ Imported #66 (0x5171…9111)    
+2022-12-20 13:34:31 [Relaychain] 💤 Idle (2 peers), best: #66 (0x5171…9111), finalized #63 (0x878a…5f0e), ⬇ 0.6kiB/s ⬆ 0.4kiB/s    
+2022-12-20 13:34:31 [Parachain] 💤 Idle (0 peers), best: #0 (0x2464…205b), finalized #0 (0x2464…205b), ⬇ 0 ⬆ 0    
+2022-12-20 13:34:36 [Relaychain] ✨ Imported #67 (0x8545…d8d4)    
+2022-12-20 13:34:36 [Relaychain] 💤 Idle (2 peers), best: #67 (0x8545…d8d4), finalized #63 (0x878a…5f0e), ⬇ 0.7kiB/s ⬆ 0.3kiB/s    
+2022-12-20 13:34:36 [Parachain] 💤 Idle (0 peers), best: #0 (0x2464…205b), finalized #0 (0x2464…205b), ⬇ 0 ⬆ 0    
+2022-12-20 13:34:41 [Relaychain] 💤 Idle (2 peers), best: #67 (0x8545…d8d4), finalized #64 (0x2f61…989e), ⬇ 0.3kiB/s ⬆ 0.3kiB/s    
+2022-12-20 13:34:41 [Parachain] 💤 Idle (0 peers), best: #0 (0x2464…205b), finalized #0 (0x2464…205b), ⬇ 0 ⬆ 0    
+2022-12-20 13:34:42 [Relaychain] ✨ Imported #68 (0x9b44…f205)    
+2022-12-20 13:34:46 [Relaychain] 💤 Idle (2 peers), best: #68 (0x9b44…f205), finalized #64 (0x2f61…989e), ⬇ 0.5kiB/s ⬆ 0.3kiB/s    
+2022-12-20 13:34:46 [Parachain] 💤 Idle (0 peers), best: #0 (0x2464…205b), finalized #0 (0x2464…205b), ⬇ 0 ⬆ 0    
+2022-12-20 13:34:48 [Relaychain] ✨ Imported #69 (0x8570…57f8)    
+2022-12-20 13:34:51 [Relaychain] 💤 Idle (2 peers), best: #69 (0x8570…57f8), finalized #66 (0x5171…9111), ⬇ 0.9kiB/s ⬆ 0.6kiB/s    
+2022-12-20 13:34:51 [Parachain] 💤 Idle (0 peers), best: #0 (0x2464…205b), finalized #0 (0x2464…205b), ⬇ 0 ⬆ 0    
+2022-12-20 13:34:54 [Relaychain] ✨ Imported #70 (0x4083…daf3)    
+2022-12-20 13:34:56 [Relaychain] 💤 Idle (2 peers), best: #70 (0x4083…daf3), finalized #67 (0x8545…d8d4), ⬇ 0.5kiB/s ⬆ 0.3kiB/s    
+2022-12-20 13:34:56 [Parachain] 💤 Idle (0 peers), best: #0 (0x2464…205b), finalized #0 (0x2464…205b), ⬇ 0 ⬆ 0    
+2022-12-20 13:35:00 [Relaychain] 👶 New epoch 7 launching at block 0xf82e…8595 (block slot 278594750 >= start slot 278594750).    
+2022-12-20 13:35:00 [Relaychain] 👶 Next epoch starts at slot 278594760    
+2022-12-20 13:35:00 [Relaychain] ✨ Imported #71 (0xf82e…8595)    
+2022-12-20 13:35:00 [Relaychain] Advanced session window for approvals update=Advanced { prev_window_start: 1, prev_window_end: 6, new_window_start: 2, new_window_end: 7 }
+2022-12-20 13:35:01 [Relaychain] 💤 Idle (2 peers), best: #71 (0xf82e…8595), finalized #67 (0x8545…d8d4), ⬇ 0.9kiB/s ⬆ 0.4kiB/s    
+2022-12-20 13:35:01 [Parachain] 💤 Idle (0 peers), best: #0 (0x2464…205b), finalized #0 (0x2464…205b), ⬇ 0 ⬆ 0    
+2022-12-20 13:35:06 [Relaychain] ✨ Imported #72 (0x69a4…b06e)    
+2022-12-20 13:35:06 [Relaychain] 💤 Idle (2 peers), best: #72 (0x69a4…b06e), finalized #68 (0x9b44…f205), ⬇ 0.9kiB/s ⬆ 0.5kiB/s    
+2022-12-20 13:35:06 [Parachain] 💤 Idle (0 peers), best: #0 (0x2464…205b), finalized #0 (0x2464…205b), ⬇ 0 ⬆ 0    
+2022-12-20 13:35:11 [Relaychain] 💤 Idle (2 peers), best: #72 (0x69a4…b06e), finalized #70 (0x4083…daf3), ⬇ 0.5kiB/s ⬆ 0.5kiB/s    
+2022-12-20 13:35:11 [Parachain] 💤 Idle (0 peers), best: #0 (0x2464…205b), finalized #0 (0x2464…205b), ⬇ 0 ⬆ 0    
+2022-12-20 13:35:12 [Relaychain] ✨ Imported #73 (0xec54…f839)    
+2022-12-20 13:35:16 [Relaychain] 💤 Idle (2 peers), best: #73 (0xec54…f839), finalized #70 (0x4083…daf3), ⬇ 0.7kiB/s ⬆ 0.4kiB/s    
+2022-12-20 13:35:16 [Parachain] 💤 Idle (0 peers), best: #0 (0x2464…205b), finalized #0 (0x2464…205b), ⬇ 0 ⬆ 0    
+2022-12-20 13:35:18 [Relaychain] ✨ Imported #74 (0x3685…7bc0)    
+2022-12-20 13:35:18 [Relaychain] ✨ Imported #74 (0x4ee5…d21d)    
+2022-12-20 13:35:18 [Relaychain] 👴 Applying authority set change scheduled at block #71    
+2022-12-20 13:35:18 [Relaychain] 👴 Applying GRANDPA set change to new set [(Public(88dc3417d5058ec4b4503e0c12ea1a0a89be200fe98922423d4334014fa6b0ee (5FA9nQDV...)), 1), (Public(d17c2d7823ebf260fd138f2d7e27d114c0145d968b5ff5006125f2414fadae69 (5GoNkf6W...)), 1)]    
+2022-12-20 13:35:21 [Relaychain] 💤 Idle (2 peers), best: #74 (0x3685…7bc0), finalized #71 (0xf82e…8595), ⬇ 0.9kiB/s ⬆ 0.3kiB/s    
+2022-12-20 13:35:21 [Parachain] 💤 Idle (0 peers), best: #0 (0x2464…205b), finalized #0 (0x2464…205b), ⬇ 0 ⬆ 0    
+2022-12-20 13:35:24 [Relaychain] ✨ Imported #75 (0x2095…637d)    
+2022-12-20 13:35:26 [Relaychain] 💤 Idle (2 peers), best: #75 (0x2095…637d), finalized #71 (0xf82e…8595), ⬇ 0.5kiB/s ⬆ 0.3kiB/s    
+2022-12-20 13:35:26 [Parachain] 💤 Idle (0 peers), best: #0 (0x2464…205b), finalized #0 (0x2464…205b), ⬇ 0 ⬆ 0    
+2022-12-20 13:35:30 [Relaychain] ✨ Imported #76 (0x8530…3432)    
+2022-12-20 13:35:30 [Relaychain] ✨ Imported #76 (0x650f…fd0f)    
+2022-12-20 13:35:31 [Relaychain] 💤 Idle (2 peers), best: #76 (0x8530…3432), finalized #72 (0x69a4…b06e), ⬇ 1.1kiB/s ⬆ 0.5kiB/s    
+2022-12-20 13:35:31 [Parachain] 💤 Idle (0 peers), best: #0 (0x2464…205b), finalized #0 (0x2464…205b), ⬇ 0 ⬆ 0    
+2022-12-20 13:35:36 [Relaychain] ✨ Imported #77 (0x00bf…0b04)    
+2022-12-20 13:35:36 [Relaychain] 💤 Idle (2 peers), best: #77 (0x00bf…0b04), finalized #74 (0x3685…7bc0), ⬇ 0.7kiB/s ⬆ 0.4kiB/s    
+2022-12-20 13:35:36 [Parachain] 💤 Idle (0 peers), best: #0 (0x2464…205b), finalized #0 (0x2464…205b), ⬇ 0 ⬆ 0    
+2022-12-20 13:35:41 [Relaychain] 💤 Idle (2 peers), best: #77 (0x00bf…0b04), finalized #74 (0x3685…7bc0), ⬇ 0.1kiB/s ⬆ 0.1kiB/s    
+2022-12-20 13:35:41 [Parachain] 💤 Idle (0 peers), best: #0 (0x2464…205b), finalized #0 (0x2464…205b), ⬇ 0 ⬆ 0    
+2022-12-20 13:35:42 [Relaychain] ✨ Imported #78 (0x99b4…2961)    
+2022-12-20 13:35:46 [Relaychain] 💤 Idle (2 peers), best: #78 (0x99b4…2961), finalized #75 (0x2095…637d), ⬇ 0.7kiB/s ⬆ 0.3kiB/s    
+2022-12-20 13:35:46 [Parachain] 💤 Idle (0 peers), best: #0 (0x2464…205b), finalized #0 (0x2464…205b), ⬇ 0 ⬆ 0    
+2022-12-20 13:35:48 [Relaychain] ✨ Imported #79 (0x28aa…89c9)    
+2022-12-20 13:35:51 [Relaychain] 💤 Idle (2 peers), best: #79 (0x28aa…89c9), finalized #76 (0x8530…3432), ⬇ 0.7kiB/s ⬆ 0.5kiB/s    
+2022-12-20 13:35:51 [Parachain] 💤 Idle (0 peers), best: #0 (0x2464…205b), finalized #0 (0x2464…205b), ⬇ 0 ⬆ 0    
+2022-12-20 13:35:54 [Relaychain] ✨ Imported #80 (0x41eb…1e37)    
+2022-12-20 13:35:56 [Relaychain] 💤 Idle (2 peers), best: #80 (0x41eb…1e37), finalized #76 (0x8530…3432), ⬇ 0.6kiB/s ⬆ 0.3kiB/s    
+2022-12-20 13:35:56 [Parachain] 💤 Idle (0 peers), best: #0 (0x2464…205b), finalized #0 (0x2464…205b), ⬇ 0 ⬆ 0    
+2022-12-20 13:36:00 [Relaychain] 👶 New epoch 8 launching at block 0xef3d…5446 (block slot 278594760 >= start slot 278594760).    
+2022-12-20 13:36:00 [Relaychain] 👶 Next epoch starts at slot 278594770    
+2022-12-20 13:36:00 [Relaychain] ✨ Imported #81 (0xef3d…5446)    
+2022-12-20 13:36:00 [Relaychain] Advanced session window for approvals update=Advanced { prev_window_start: 2, prev_window_end: 7, new_window_start: 3, new_window_end: 8 }
+2022-12-20 13:36:01 [Relaychain] 💤 Idle (2 peers), best: #81 (0xef3d…5446), finalized #78 (0x99b4…2961), ⬇ 0.9kiB/s ⬆ 0.4kiB/s    
+2022-12-20 13:36:01 [Parachain] 💤 Idle (0 peers), best: #0 (0x2464…205b), finalized #0 (0x2464…205b), ⬇ 0 ⬆ 0    
+2022-12-20 13:36:06 [Relaychain] ✨ Imported #82 (0xbf22…eb34)    
+2022-12-20 13:36:06 [Relaychain] ✨ Imported #82 (0x0d7e…08c8)    
+2022-12-20 13:36:06 [Relaychain] 💤 Idle (2 peers), best: #82 (0xbf22…eb34), finalized #78 (0x99b4…2961), ⬇ 1.1kiB/s ⬆ 0.4kiB/s    
+2022-12-20 13:36:06 [Parachain] 💤 Idle (0 peers), best: #0 (0x2464…205b), finalized #0 (0x2464…205b), ⬇ 0 ⬆ 0    
+2022-12-20 13:36:11 [Relaychain] 💤 Idle (2 peers), best: #82 (0xbf22…eb34), finalized #79 (0x28aa…89c9), ⬇ 0.6kiB/s ⬆ 0.5kiB/s    
+2022-12-20 13:36:11 [Parachain] 💤 Idle (0 peers), best: #0 (0x2464…205b), finalized #0 (0x2464…205b), ⬇ 0 ⬆ 0    
+2022-12-20 13:36:12 [Relaychain] ✨ Imported #83 (0x3b46…7aac)    
+2022-12-20 13:36:16 [Relaychain] 💤 Idle (2 peers), best: #83 (0x3b46…7aac), finalized #80 (0x41eb…1e37), ⬇ 0.5kiB/s ⬆ 0.2kiB/s    
+2022-12-20 13:36:16 [Parachain] 💤 Idle (0 peers), best: #0 (0x2464…205b), finalized #0 (0x2464…205b), ⬇ 0 ⬆ 0    
+2022-12-20 13:36:18 [Relaychain] ✨ Imported #84 (0x0aa3…eb6a)    
+2022-12-20 13:36:21 [Relaychain] 💤 Idle (2 peers), best: #84 (0x0aa3…eb6a), finalized #80 (0x41eb…1e37), ⬇ 0.8kiB/s ⬆ 0.6kiB/s    
+2022-12-20 13:36:21 [Parachain] 💤 Idle (0 peers), best: #0 (0x2464…205b), finalized #0 (0x2464…205b), ⬇ 0 ⬆ 0    
+2022-12-20 13:36:22 [Relaychain] 👴 Applying authority set change scheduled at block #81    
+2022-12-20 13:36:22 [Relaychain] 👴 Applying GRANDPA set change to new set [(Public(88dc3417d5058ec4b4503e0c12ea1a0a89be200fe98922423d4334014fa6b0ee (5FA9nQDV...)), 1), (Public(d17c2d7823ebf260fd138f2d7e27d114c0145d968b5ff5006125f2414fadae69 (5GoNkf6W...)), 1)]    
+2022-12-20 13:36:24 [Relaychain] ✨ Imported #85 (0x7ff7…170a)    
+2022-12-20 13:36:26 [Relaychain] 💤 Idle (2 peers), best: #85 (0x7ff7…170a), finalized #81 (0xef3d…5446), ⬇ 0.5kiB/s ⬆ 0.2kiB/s    
+2022-12-20 13:36:26 [Parachain] 💤 Idle (0 peers), best: #0 (0x2464…205b), finalized #0 (0x2464…205b), ⬇ 0 ⬆ 0    
+2022-12-20 13:36:30 [Relaychain] ✨ Imported #86 (0x6291…ee1b)    
+2022-12-20 13:36:30 [Relaychain] ✨ Imported #86 (0xbe34…3dad)    
+2022-12-20 13:36:31 [Relaychain] 💤 Idle (2 peers), best: #86 (0x6291…ee1b), finalized #83 (0x3b46…7aac), ⬇ 1.2kiB/s ⬆ 0.7kiB/s    
+2022-12-20 13:36:31 [Parachain] 💤 Idle (0 peers), best: #0 (0x2464…205b), finalized #0 (0x2464…205b), ⬇ 0 ⬆ 0    
+2022-12-20 13:36:36 [Relaychain] ✨ Imported #87 (0x0c10…2c55)    
+2022-12-20 13:36:36 [Relaychain] ✨ Imported #87 (0x08b6…0882)    
+2022-12-20 13:36:36 [Relaychain] 💤 Idle (2 peers), best: #87 (0x0c10…2c55), finalized #83 (0x3b46…7aac), ⬇ 1.0kiB/s ⬆ 0.4kiB/s    
+2022-12-20 13:36:36 [Parachain] 💤 Idle (0 peers), best: #0 (0x2464…205b), finalized #0 (0x2464…205b), ⬇ 0 ⬆ 0    
+2022-12-20 13:36:41 [Relaychain] 💤 Idle (2 peers), best: #87 (0x0c10…2c55), finalized #84 (0x0aa3…eb6a), ⬇ 0.3kiB/s ⬆ 0.2kiB/s    
+2022-12-20 13:36:41 [Parachain] 💤 Idle (0 peers), best: #0 (0x2464…205b), finalized #0 (0x2464…205b), ⬇ 0 ⬆ 0    
+2022-12-20 13:36:42 [Relaychain] ✨ Imported #88 (0xa1ef…6e6b)    
+2022-12-20 13:36:46 [Relaychain] 💤 Idle (2 peers), best: #88 (0xa1ef…6e6b), finalized #84 (0x0aa3…eb6a), ⬇ 0.5kiB/s ⬆ 0.2kiB/s    
+2022-12-20 13:36:46 [Parachain] 💤 Idle (0 peers), best: #0 (0x2464…205b), finalized #0 (0x2464…205b), ⬇ 0 ⬆ 0    
+2022-12-20 13:36:48 [Relaychain] ✨ Imported #89 (0xe061…2654)    
+2022-12-20 13:36:51 [Relaychain] 💤 Idle (2 peers), best: #89 (0xe061…2654), finalized #86 (0x6291…ee1b), ⬇ 0.9kiB/s ⬆ 0.6kiB/s    
+2022-12-20 13:36:51 [Parachain] 💤 Idle (0 peers), best: #0 (0x2464…205b), finalized #0 (0x2464…205b), ⬇ 0 ⬆ 0    
+2022-12-20 13:36:54 [Relaychain] ✨ Imported #90 (0xd0ad…6777)    
+2022-12-20 13:36:56 [Relaychain] 💤 Idle (2 peers), best: #90 (0xd0ad…6777), finalized #87 (0x0c10…2c55), ⬇ 0.7kiB/s ⬆ 0.3kiB/s    
+2022-12-20 13:36:56 [Parachain] 💤 Idle (0 peers), best: #0 (0x2464…205b), finalized #0 (0x2464…205b), ⬇ 0 ⬆ 0    
+2022-12-20 13:37:00 [Relaychain] 👶 New epoch 9 launching at block 0x9419…7d3d (block slot 278594770 >= start slot 278594770).    
+2022-12-20 13:37:00 [Relaychain] 👶 Next epoch starts at slot 278594780    
+2022-12-20 13:37:00 [Relaychain] ✨ Imported #91 (0x9419…7d3d)    
+2022-12-20 13:37:00 [Relaychain] Advanced session window for approvals update=Advanced { prev_window_start: 3, prev_window_end: 8, new_window_start: 4, new_window_end: 9 }
+2022-12-20 13:37:01 [Relaychain] 💤 Idle (2 peers), best: #91 (0x9419…7d3d), finalized #87 (0x0c10…2c55), ⬇ 0.7kiB/s ⬆ 0.3kiB/s    
+2022-12-20 13:37:01 [Parachain] 💤 Idle (0 peers), best: #0 (0x2464…205b), finalized #0 (0x2464…205b), ⬇ 0 ⬆ 0    
+2022-12-20 13:37:06 [Relaychain] ✨ Imported #92 (0x1d17…536c)    
+2022-12-20 13:37:06 [Relaychain] 💤 Idle (2 peers), best: #92 (0x1d17…536c), finalized #88 (0xa1ef…6e6b), ⬇ 0.9kiB/s ⬆ 0.6kiB/s    
+2022-12-20 13:37:06 [Parachain] 💤 Idle (0 peers), best: #0 (0x2464…205b), finalized #0 (0x2464…205b), ⬇ 0 ⬆ 0    
+2022-12-20 13:37:11 [Relaychain] 💤 Idle (2 peers), best: #92 (0x1d17…536c), finalized #90 (0xd0ad…6777), ⬇ 0.5kiB/s ⬆ 0.5kiB/s    
+2022-12-20 13:37:11 [Parachain] 💤 Idle (0 peers), best: #0 (0x2464…205b), finalized #0 (0x2464…205b), ⬇ 0 ⬆ 0    
+2022-12-20 13:37:12 [Relaychain] ✨ Imported #93 (0x4ec0…83af)    
+2022-12-20 13:37:16 [Relaychain] 💤 Idle (2 peers), best: #93 (0x4ec0…83af), finalized #90 (0xd0ad…6777), ⬇ 0.7kiB/s ⬆ 0.3kiB/s    
+2022-12-20 13:37:16 [Parachain] 💤 Idle (0 peers), best: #0 (0x2464…205b), finalized #0 (0x2464…205b), ⬇ 0 ⬆ 0    
+2022-12-20 13:37:18 [Relaychain] ✨ Imported #94 (0xf5d6…b33a)    
+2022-12-20 13:37:18 [Relaychain] 👴 Applying authority set change scheduled at block #91    
+2022-12-20 13:37:18 [Relaychain] 👴 Applying GRANDPA set change to new set [(Public(88dc3417d5058ec4b4503e0c12ea1a0a89be200fe98922423d4334014fa6b0ee (5FA9nQDV...)), 1), (Public(d17c2d7823ebf260fd138f2d7e27d114c0145d968b5ff5006125f2414fadae69 (5GoNkf6W...)), 1)]    
+2022-12-20 13:37:21 [Relaychain] 💤 Idle (2 peers), best: #94 (0xf5d6…b33a), finalized #91 (0x9419…7d3d), ⬇ 0.6kiB/s ⬆ 0.3kiB/s    
+2022-12-20 13:37:21 [Parachain] 💤 Idle (0 peers), best: #0 (0x2464…205b), finalized #0 (0x2464…205b), ⬇ 0 ⬆ 0    
+2022-12-20 13:37:24 [Relaychain] ✨ Imported #95 (0xec51…7f21)    
+2022-12-20 13:37:26 [Relaychain] 💤 Idle (2 peers), best: #95 (0xec51…7f21), finalized #91 (0x9419…7d3d), ⬇ 0.5kiB/s ⬆ 0.3kiB/s    
+2022-12-20 13:37:26 [Parachain] 💤 Idle (0 peers), best: #0 (0x2464…205b), finalized #0 (0x2464…205b), ⬇ 0 ⬆ 0    
+2022-12-20 13:37:30 [Relaychain] ✨ Imported #96 (0x8eef…885f)    
+2022-12-20 13:37:31 [Relaychain] 💤 Idle (2 peers), best: #96 (0x8eef…885f), finalized #92 (0x1d17…536c), ⬇ 0.8kiB/s ⬆ 0.5kiB/s    
+2022-12-20 13:37:31 [Parachain] 💤 Idle (0 peers), best: #0 (0x2464…205b), finalized #0 (0x2464…205b), ⬇ 0 ⬆ 0    
+2022-12-20 13:37:36 [Relaychain] ✨ Imported #97 (0xd3e3…97e2)    
+2022-12-20 13:37:36 [Relaychain] 💤 Idle (2 peers), best: #97 (0xd3e3…97e2), finalized #94 (0xf5d6…b33a), ⬇ 0.7kiB/s ⬆ 0.4kiB/s    
+2022-12-20 13:37:36 [Parachain] 💤 Idle (0 peers), best: #0 (0x2464…205b), finalized #0 (0x2464…205b), ⬇ 0 ⬆ 0    
+2022-12-20 13:37:41 [Relaychain] 💤 Idle (2 peers), best: #97 (0xd3e3…97e2), finalized #94 (0xf5d6…b33a), ⬇ 0.1kiB/s ⬆ 0.1kiB/s    
+2022-12-20 13:37:41 [Parachain] 💤 Idle (0 peers), best: #0 (0x2464…205b), finalized #0 (0x2464…205b), ⬇ 0 ⬆ 0    
+2022-12-20 13:37:42 [Relaychain] ✨ Imported #98 (0x9083…e84b)    
+2022-12-20 13:37:46 [Relaychain] 💤 Idle (2 peers), best: #98 (0x9083…e84b), finalized #95 (0xec51…7f21), ⬇ 0.7kiB/s ⬆ 0.4kiB/s    
+2022-12-20 13:37:46 [Parachain] 💤 Idle (0 peers), best: #0 (0x2464…205b), finalized #0 (0x2464…205b), ⬇ 0 ⬆ 0    
+2022-12-20 13:37:48 [Relaychain] ✨ Imported #99 (0x0b72…2480)    
+2022-12-20 13:37:51 [Relaychain] 💤 Idle (2 peers), best: #99 (0x0b72…2480), finalized #96 (0x8eef…885f), ⬇ 0.7kiB/s ⬆ 0.4kiB/s    
+2022-12-20 13:37:51 [Parachain] 💤 Idle (0 peers), best: #0 (0x2464…205b), finalized #0 (0x2464…205b), ⬇ 0 ⬆ 0    
+2022-12-20 13:37:54 [Relaychain] ✨ Imported #100 (0xbbe2…8a06)    
+2022-12-20 13:37:56 [Relaychain] 💤 Idle (2 peers), best: #100 (0xbbe2…8a06), finalized #96 (0x8eef…885f), ⬇ 0.6kiB/s ⬆ 0.3kiB/s    
+2022-12-20 13:37:56 [Parachain] 💤 Idle (0 peers), best: #0 (0x2464…205b), finalized #0 (0x2464…205b), ⬇ 0 ⬆ 0    
+2022-12-20 13:38:00 [Relaychain] 👶 New epoch 10 launching at block 0x9093…0fe3 (block slot 278594780 >= start slot 278594780).    
+2022-12-20 13:38:00 [Relaychain] 👶 Next epoch starts at slot 278594790    
+2022-12-20 13:38:00 [Relaychain] ✨ Imported #101 (0x9093…0fe3)    
+2022-12-20 13:38:00 [Relaychain] Advanced session window for approvals update=Advanced { prev_window_start: 4, prev_window_end: 9, new_window_start: 5, new_window_end: 10 }
+2022-12-20 13:38:00 Accepting new connection 1/100
+2022-12-20 13:38:01 [Relaychain] 💤 Idle (2 peers), best: #101 (0x9093…0fe3), finalized #98 (0x9083…e84b), ⬇ 1.0kiB/s ⬆ 0.4kiB/s    
+2022-12-20 13:38:01 [Parachain] 💤 Idle (0 peers), best: #0 (0x2464…205b), finalized #0 (0x2464…205b), ⬇ 0 ⬆ 0    
+2022-12-20 13:38:06 [Relaychain] ✨ Imported #102 (0x468c…db9a)    
+2022-12-20 13:38:06 [Relaychain] 💤 Idle (2 peers), best: #102 (0x468c…db9a), finalized #98 (0x9083…e84b), ⬇ 0.7kiB/s ⬆ 0.5kiB/s    
+2022-12-20 13:38:06 [Parachain] 💤 Idle (0 peers), best: #0 (0x2464…205b), finalized #0 (0x2464…205b), ⬇ 0 ⬆ 0    
+2022-12-20 13:38:11 [Relaychain] 💤 Idle (2 peers), best: #102 (0x468c…db9a), finalized #99 (0x0b72…2480), ⬇ 1.8kiB/s ⬆ 2.7kiB/s    
+2022-12-20 13:38:11 [Parachain] 💤 Idle (0 peers), best: #0 (0x2464…205b), finalized #0 (0x2464…205b), ⬇ 0 ⬆ 0    
+2022-12-20 13:38:12 [Relaychain] ✨ Imported #103 (0x1be6…fe2c)    
+2022-12-20 13:38:16 [Relaychain] 💤 Idle (2 peers), best: #103 (0x1be6…fe2c), finalized #100 (0xbbe2…8a06), ⬇ 0.5kiB/s ⬆ 0.3kiB/s    
+2022-12-20 13:38:16 [Parachain] 💤 Idle (0 peers), best: #0 (0x2464…205b), finalized #0 (0x2464…205b), ⬇ 0 ⬆ 0    
+2022-12-20 13:38:18 [Relaychain] ✨ Imported #104 (0x1dbc…4bea)    
+2022-12-20 13:38:21 [Relaychain] 💤 Idle (2 peers), best: #104 (0x1dbc…4bea), finalized #100 (0xbbe2…8a06), ⬇ 0.8kiB/s ⬆ 0.5kiB/s    
+2022-12-20 13:38:21 [Parachain] 💤 Idle (0 peers), best: #0 (0x2464…205b), finalized #0 (0x2464…205b), ⬇ 0 ⬆ 0    
+2022-12-20 13:38:22 [Relaychain] 👴 Applying authority set change scheduled at block #101    
+2022-12-20 13:38:22 [Relaychain] 👴 Applying GRANDPA set change to new set [(Public(88dc3417d5058ec4b4503e0c12ea1a0a89be200fe98922423d4334014fa6b0ee (5FA9nQDV...)), 1), (Public(d17c2d7823ebf260fd138f2d7e27d114c0145d968b5ff5006125f2414fadae69 (5GoNkf6W...)), 1)]    
+2022-12-20 13:38:24 [Relaychain] ✨ Imported #105 (0xc66d…1dc2)    
+2022-12-20 13:38:26 [Relaychain] 💤 Idle (2 peers), best: #105 (0xc66d…1dc2), finalized #101 (0x9093…0fe3), ⬇ 0.5kiB/s ⬆ 0.3kiB/s    
+2022-12-20 13:38:26 [Parachain] 💤 Idle (0 peers), best: #0 (0x2464…205b), finalized #0 (0x2464…205b), ⬇ 0 ⬆ 0    
+2022-12-20 13:38:30 [Relaychain] ✨ Imported #106 (0x1dc1…938e)    
+2022-12-20 13:38:31 [Relaychain] 💤 Idle (2 peers), best: #106 (0x1dc1…938e), finalized #103 (0x1be6…fe2c), ⬇ 0.6kiB/s ⬆ 0.4kiB/s    
+2022-12-20 13:38:31 [Parachain] 💤 Idle (0 peers), best: #0 (0x2464…205b), finalized #0 (0x2464…205b), ⬇ 0 ⬆ 0    
+2022-12-20 13:38:36 [Relaychain] ✨ Imported #107 (0x1796…a4d6)    
+2022-12-20 13:38:36 [Relaychain] 💤 Idle (2 peers), best: #107 (0x1796…a4d6), finalized #103 (0x1be6…fe2c), ⬇ 0.7kiB/s ⬆ 0.4kiB/s    
+2022-12-20 13:38:36 [Parachain] 💤 Idle (0 peers), best: #0 (0x2464…205b), finalized #0 (0x2464…205b), ⬇ 0 ⬆ 0    
+2022-12-20 13:38:41 [Relaychain] 💤 Idle (2 peers), best: #107 (0x1796…a4d6), finalized #104 (0x1dbc…4bea), ⬇ 0.3kiB/s ⬆ 0.3kiB/s    
+2022-12-20 13:38:41 [Parachain] 💤 Idle (0 peers), best: #0 (0x2464…205b), finalized #0 (0x2464…205b), ⬇ 0 ⬆ 0    
+2022-12-20 13:38:42 [Relaychain] ✨ Imported #108 (0x45e4…ca60)    
+2022-12-20 13:38:46 [Relaychain] 💤 Idle (2 peers), best: #108 (0x45e4…ca60), finalized #104 (0x1dbc…4bea), ⬇ 0.5kiB/s ⬆ 0.3kiB/s    
+2022-12-20 13:38:46 [Parachain] 💤 Idle (0 peers), best: #0 (0x2464…205b), finalized #0 (0x2464…205b), ⬇ 0 ⬆ 0    
+2022-12-20 13:38:48 [Relaychain] ✨ Imported #109 (0xa8bb…ea4d)    
+2022-12-20 13:38:51 [Relaychain] 💤 Idle (2 peers), best: #109 (0xa8bb…ea4d), finalized #106 (0x1dc1…938e), ⬇ 0.9kiB/s ⬆ 0.5kiB/s    
+2022-12-20 13:38:51 [Parachain] 💤 Idle (0 peers), best: #0 (0x2464…205b), finalized #0 (0x2464…205b), ⬇ 0 ⬆ 0    
+2022-12-20 13:38:54 [Relaychain] ✨ Imported #110 (0x0e63…dd4a)    
+2022-12-20 13:38:56 [Relaychain] 💤 Idle (2 peers), best: #110 (0x0e63…dd4a), finalized #107 (0x1796…a4d6), ⬇ 0.5kiB/s ⬆ 0.3kiB/s    
+2022-12-20 13:38:56 [Parachain] 💤 Idle (0 peers), best: #0 (0x2464…205b), finalized #0 (0x2464…205b), ⬇ 0 ⬆ 0    
+2022-12-20 13:39:00 [Relaychain] 👶 New epoch 11 launching at block 0x3ef9…ff0a (block slot 278594790 >= start slot 278594790).    
+2022-12-20 13:39:00 [Relaychain] 👶 Next epoch starts at slot 278594800    
+2022-12-20 13:39:00 [Relaychain] ✨ Imported #111 (0x3ef9…ff0a)    
+2022-12-20 13:39:00 [Relaychain] Advanced session window for approvals update=Advanced { prev_window_start: 5, prev_window_end: 10, new_window_start: 6, new_window_end: 11 }
+2022-12-20 13:39:01 [Relaychain] 💤 Idle (2 peers), best: #111 (0x3ef9…ff0a), finalized #107 (0x1796…a4d6), ⬇ 0.9kiB/s ⬆ 0.4kiB/s    
+2022-12-20 13:39:01 [Parachain] 💤 Idle (0 peers), best: #0 (0x2464…205b), finalized #0 (0x2464…205b), ⬇ 0 ⬆ 0    
+2022-12-20 13:39:06 [Relaychain] ✨ Imported #112 (0x168c…bb80)    
+2022-12-20 13:39:06 [Relaychain] 💤 Idle (2 peers), best: #112 (0x168c…bb80), finalized #108 (0x45e4…ca60), ⬇ 1.0kiB/s ⬆ 0.6kiB/s    
+2022-12-20 13:39:06 [Parachain] 💤 Idle (0 peers), best: #0 (0x2464…205b), finalized #0 (0x2464…205b), ⬇ 0 ⬆ 0    
+2022-12-20 13:39:11 [Relaychain] 💤 Idle (2 peers), best: #112 (0x168c…bb80), finalized #110 (0x0e63…dd4a), ⬇ 0.5kiB/s ⬆ 0.5kiB/s    
+2022-12-20 13:39:11 [Parachain] 💤 Idle (0 peers), best: #0 (0x2464…205b), finalized #0 (0x2464…205b), ⬇ 0 ⬆ 0    
+2022-12-20 13:39:12 [Relaychain] ✨ Imported #113 (0x40bd…93e7)    
+2022-12-20 13:39:16 [Relaychain] 💤 Idle (2 peers), best: #113 (0x40bd…93e7), finalized #110 (0x0e63…dd4a), ⬇ 0.7kiB/s ⬆ 0.3kiB/s    
+2022-12-20 13:39:16 [Parachain] 💤 Idle (0 peers), best: #0 (0x2464…205b), finalized #0 (0x2464…205b), ⬇ 0 ⬆ 0    
+2022-12-20 13:39:18 [Relaychain] ✨ Imported #114 (0x864f…2fc4)    
+2022-12-20 13:39:18 [Relaychain] 👴 Applying authority set change scheduled at block #111    
+2022-12-20 13:39:18 [Relaychain] 👴 Applying GRANDPA set change to new set [(Public(88dc3417d5058ec4b4503e0c12ea1a0a89be200fe98922423d4334014fa6b0ee (5FA9nQDV...)), 1), (Public(d17c2d7823ebf260fd138f2d7e27d114c0145d968b5ff5006125f2414fadae69 (5GoNkf6W...)), 1)]    
+2022-12-20 13:39:21 [Relaychain] 💤 Idle (2 peers), best: #114 (0x864f…2fc4), finalized #111 (0x3ef9…ff0a), ⬇ 0.6kiB/s ⬆ 0.4kiB/s    
+2022-12-20 13:39:21 [Parachain] 💤 Idle (0 peers), best: #0 (0x2464…205b), finalized #0 (0x2464…205b), ⬇ 0 ⬆ 0    
+2022-12-20 13:39:24 [Relaychain] ✨ Imported #115 (0xc403…3848)    
+2022-12-20 13:39:26 [Relaychain] 💤 Idle (2 peers), best: #115 (0xc403…3848), finalized #111 (0x3ef9…ff0a), ⬇ 0.5kiB/s ⬆ 0.3kiB/s    
+2022-12-20 13:39:26 [Parachain] 💤 Idle (0 peers), best: #0 (0x2464…205b), finalized #0 (0x2464…205b), ⬇ 0 ⬆ 0    
+2022-12-20 13:39:30 [Relaychain] ✨ Imported #116 (0x2b4f…82a2)    
+2022-12-20 13:39:31 [Relaychain] 💤 Idle (2 peers), best: #116 (0x2b4f…82a2), finalized #112 (0x168c…bb80), ⬇ 0.8kiB/s ⬆ 0.4kiB/s    
+2022-12-20 13:39:31 [Parachain] 💤 Idle (0 peers), best: #0 (0x2464…205b), finalized #0 (0x2464…205b), ⬇ 0 ⬆ 0    
+2022-12-20 13:39:36 [Relaychain] ✨ Imported #117 (0x7cc7…7acf)    
+2022-12-20 13:39:36 [Relaychain] ✨ Imported #117 (0x5c09…7644)    
+2022-12-20 13:39:36 [Relaychain] 💤 Idle (2 peers), best: #117 (0x7cc7…7acf), finalized #114 (0x864f…2fc4), ⬇ 0.9kiB/s ⬆ 0.4kiB/s    
+2022-12-20 13:39:36 [Parachain] 💤 Idle (0 peers), best: #0 (0x2464…205b), finalized #0 (0x2464…205b), ⬇ 0 ⬆ 0    
+2022-12-20 13:39:41 [Relaychain] 💤 Idle (2 peers), best: #117 (0x7cc7…7acf), finalized #114 (0x864f…2fc4), ⬇ 0.3kiB/s ⬆ 0.2kiB/s    
+2022-12-20 13:39:41 [Parachain] 💤 Idle (0 peers), best: #0 (0x2464…205b), finalized #0 (0x2464…205b), ⬇ 0 ⬆ 0    
+2022-12-20 13:39:42 [Relaychain] ✨ Imported #118 (0x88fb…7127)    
+2022-12-20 13:39:46 [Relaychain] 💤 Idle (2 peers), best: #118 (0x88fb…7127), finalized #115 (0xc403…3848), ⬇ 0.7kiB/s ⬆ 0.4kiB/s    
+2022-12-20 13:39:46 [Parachain] 💤 Idle (0 peers), best: #0 (0x2464…205b), finalized #0 (0x2464…205b), ⬇ 0 ⬆ 0    
+2022-12-20 13:39:48 [Relaychain] ✨ Imported #119 (0x578d…c52b)    
+2022-12-20 13:39:51 [Relaychain] 💤 Idle (2 peers), best: #119 (0x578d…c52b), finalized #116 (0x2b4f…82a2), ⬇ 0.7kiB/s ⬆ 0.4kiB/s    
+2022-12-20 13:39:51 [Parachain] 💤 Idle (0 peers), best: #0 (0x2464…205b), finalized #0 (0x2464…205b), ⬇ 0 ⬆ 0    
+2022-12-20 13:39:54 [Relaychain] ✨ Imported #120 (0x78f7…b611)    
+2022-12-20 13:39:54 [Relaychain] ✨ Imported #120 (0x49ae…7561)    
+2022-12-20 13:39:56 [Relaychain] 💤 Idle (2 peers), best: #120 (0x78f7…b611), finalized #116 (0x2b4f…82a2), ⬇ 1.0kiB/s ⬆ 0.4kiB/s    
+2022-12-20 13:39:56 [Parachain] 💤 Idle (0 peers), best: #0 (0x2464…205b), finalized #0 (0x2464…205b), ⬇ 0 ⬆ 0    
+2022-12-20 13:40:00 [Relaychain] 👶 New epoch 12 launching at block 0xfb73…c7a1 (block slot 278594800 >= start slot 278594800).    
+2022-12-20 13:40:00 [Relaychain] 👶 Next epoch starts at slot 278594810    
+2022-12-20 13:40:00 [Relaychain] ✨ Imported #121 (0xfb73…c7a1)    
+2022-12-20 13:40:00 [Relaychain] Advanced session window for approvals update=Advanced { prev_window_start: 6, prev_window_end: 11, new_window_start: 7, new_window_end: 12 }
+2022-12-20 13:40:01 [Relaychain] 💤 Idle (2 peers), best: #121 (0xfb73…c7a1), finalized #118 (0x88fb…7127), ⬇ 0.9kiB/s ⬆ 0.4kiB/s    
+2022-12-20 13:40:01 [Parachain] 💤 Idle (0 peers), best: #0 (0x2464…205b), finalized #0 (0x2464…205b), ⬇ 0 ⬆ 0    
+2022-12-20 13:40:06 [Relaychain] ✨ Imported #122 (0xeffd…1b3d)    
+2022-12-20 13:40:06 [Relaychain] ✨ Imported #122 (0x4de6…3b0e)    
+2022-12-20 13:40:06 [Relaychain] 💤 Idle (2 peers), best: #122 (0xeffd…1b3d), finalized #118 (0x88fb…7127), ⬇ 1.1kiB/s ⬆ 0.4kiB/s    
+2022-12-20 13:40:06 [Parachain] 💤 Idle (0 peers), best: #0 (0x2464…205b), finalized #0 (0x2464…205b), ⬇ 0 ⬆ 0    
+2022-12-20 13:40:11 [Relaychain] 💤 Idle (2 peers), best: #122 (0xeffd…1b3d), finalized #119 (0x578d…c52b), ⬇ 0.6kiB/s ⬆ 0.5kiB/s    
+2022-12-20 13:40:11 [Parachain] 💤 Idle (0 peers), best: #0 (0x2464…205b), finalized #0 (0x2464…205b), ⬇ 0 ⬆ 0    
+2022-12-20 13:40:12 [Relaychain] ✨ Imported #123 (0xa9b1…3cfd)    
+2022-12-20 13:40:16 [Relaychain] 💤 Idle (2 peers), best: #123 (0xa9b1…3cfd), finalized #120 (0x78f7…b611), ⬇ 0.7kiB/s ⬆ 0.4kiB/s    
+2022-12-20 13:40:16 [Parachain] 💤 Idle (0 peers), best: #0 (0x2464…205b), finalized #0 (0x2464…205b), ⬇ 0 ⬆ 0    
+2022-12-20 13:40:18 [Relaychain] ✨ Imported #124 (0x4bfe…9df8)    
+2022-12-20 13:40:21 [Relaychain] 💤 Idle (2 peers), best: #124 (0x4bfe…9df8), finalized #120 (0x78f7…b611), ⬇ 0.6kiB/s ⬆ 0.4kiB/s    
+2022-12-20 13:40:21 [Parachain] 💤 Idle (0 peers), best: #0 (0x2464…205b), finalized #0 (0x2464…205b), ⬇ 0 ⬆ 0    
+2022-12-20 13:40:22 [Relaychain] 👴 Applying authority set change scheduled at block #121    
+2022-12-20 13:40:22 [Relaychain] 👴 Applying GRANDPA set change to new set [(Public(88dc3417d5058ec4b4503e0c12ea1a0a89be200fe98922423d4334014fa6b0ee (5FA9nQDV...)), 1), (Public(d17c2d7823ebf260fd138f2d7e27d114c0145d968b5ff5006125f2414fadae69 (5GoNkf6W...)), 1)]    
+2022-12-20 13:40:24 [Relaychain] ✨ Imported #125 (0xcbcf…af63)    
+2022-12-20 13:40:26 [Relaychain] 💤 Idle (2 peers), best: #125 (0xcbcf…af63), finalized #121 (0xfb73…c7a1), ⬇ 0.6kiB/s ⬆ 0.3kiB/s    
+2022-12-20 13:40:26 [Parachain] 💤 Idle (0 peers), best: #0 (0x2464…205b), finalized #0 (0x2464…205b), ⬇ 0 ⬆ 0    
+2022-12-20 13:40:30 [Relaychain] ✨ Imported #126 (0xce20…76ce)    
+2022-12-20 13:40:30 [Relaychain] ✨ Imported #126 (0x4de1…6467)    
+2022-12-20 13:40:31 [Relaychain] 💤 Idle (2 peers), best: #126 (0xce20…76ce), finalized #123 (0xa9b1…3cfd), ⬇ 0.9kiB/s ⬆ 0.5kiB/s    
+2022-12-20 13:40:31 [Parachain] 💤 Idle (0 peers), best: #0 (0x2464…205b), finalized #0 (0x2464…205b), ⬇ 0 ⬆ 0    
